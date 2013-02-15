@@ -11,6 +11,7 @@
                 LACNEM 2013</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
+                    <li><a href="program.php">Program</a></li>
                     <li><a href="attendants.php">Attendants</a></li>
                     <li><a href="authors.php">Authors</a></li>
                     <li><a href="organization.php">Organization</a></li>

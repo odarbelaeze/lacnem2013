@@ -10,8 +10,8 @@
     <header><?php require 'common/header.php'; ?></header>
     <div class="container">
         <div class="page-header"><h1>Call For Papers</h1></div>
-        <h2>Aims &amp; Scope</h2>
         <section id="aimsAndScope">
+            <div class="page-header"><h2>Aims &amp; Scope</h2></div>
              <p>
                 Electronic Media is related to the storage and delivery of multimedia data using
                 electromechanical energy to access content. Networked and Electronic Media (NEM) is
@@ -30,7 +30,7 @@
         </section>
         
         <section id="topics">
-            <h2>Topics <small>Indicative not exclusive list</small></h2>
+            <div class="page-header"><h2>Topics <small>Indicative not exclusive list</small></h2></div>
             <div class="row-fluid">
                 <section id="multimedia">
                     <h3>Multimedia</h3>
@@ -81,6 +81,31 @@
                         <li>Analysis, Algebra, Geometry and Topology Applications</li>
                     </ul>
                 </section>
+            </div>
+        </section>
+        <section id="paperSubmission">
+            <div class="page-header">
+                <h2>Paper Submission</h2>
+            </div>
+            Paper submission will be done using ConfTool <span class="badge badge-info">
+            To be available later</span>, all the accepted papers will be published in 
+            the event memories (with an ISBN). Accepted papers in English will be 
+            considered for indexing in INSPEC.  Latex and Word templates as well as a 
+            copy of the conference call for papers are available for download in the 
+            well bellow.
+            <h3>Downloads</h3>
+            <div id="downloads" class="well">
+                <ul class="nav nav-stacked nav-pills">
+                    <li><a href="downloads/CallForPapers.pdf" target="_blanck">
+                        Conference call for papers
+                    </a></li>
+                    <li><a href="downloads/PaperTemplate.doc" download>
+                        Word paper template
+                    </a></li>
+                    <li><a href="downloads/TexPaperTemplate.tar.gz" download>
+                        Latex paper template
+                    </a></li>
+                </ul>
             </div>
         </section>
     </div>
